@@ -104,10 +104,6 @@ st.markdown('''
 1. **Upload Image:** Use the sidebar to upload a candlestick chart image from your local PC.
 2. **Detect Objects:** Click the :blue[Detect Objects] button to analyze the uploaded chart.
 
-**Option 2: Generate and Analyze Chart**
-1. **Generate Chart:** Provide the ticker symbol and interval in the sidebar to create and download a chart (latest 180 candles).
-2. **Upload Generated Chart:** Use the sidebar to upload the generated chart image.
-3. **Detect Objects:** Click the :blue[Detect Objects] button to analyze the generated chart.
 ''')
 
 # Creating two columns on the main page
