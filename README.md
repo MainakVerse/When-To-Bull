@@ -30,6 +30,7 @@ The WhentobullAI app, built with Streamlit, offers a seamless interface for user
 - **High Accuracy**: Powered by the YOLOv8 model, ensuring reliable pattern detection.
 - **Versatile**: Supports both stock and cryptocurrency charts.
 
-![WhentobullAI App](images/app.png)
+![WhenToBull](https://github.com/user-attachments/assets/0b8b840d-7daf-47cb-b09f-a68e5198db40)
+
 
 
