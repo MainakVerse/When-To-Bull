@@ -1,4 +1,4 @@
-# WhentobullAI
+# When-to-Bull AI
 <img src="images/chartscan.png" alt="WhentobullAI Logo" width="200"/>
 
 
