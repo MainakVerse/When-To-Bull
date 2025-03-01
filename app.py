@@ -67,25 +67,25 @@ with st.sidebar:
     st.write("")
     st.header("Configurations")     # Adding header to sidebar
     # Section to generate and download chart
-    st.subheader("Generate Chart")
-    ticker = st.text_input("Enter Ticker Symbol (e.g., AAPL):")
-    interval = st.selectbox("Select Interval", ["1d", "1h", "1wk"])
-    chunk_size = 180  # Default chunk size
-    if st.button("Generate Chart"):
-        if ticker:
-            chart_buffer = generate_chart(ticker, interval=interval, chunk_size=chunk_size)
-            if chart_buffer:
-                st.success(f"Chart generated successfully.")
-                st.download_button(
-                    label=f"Download {ticker} Chart",
-                    data=chart_buffer,
-                    file_name=f"{ticker}_latest_{chunk_size}_candles.png",
-                    mime="image/png"
-                )
-                st.image(chart_buffer, caption=f"{ticker} Chart", use_column_width=True)
-        else:
-            st.error("Please enter a valid ticker symbol.")
-    st.write("")
+    # st.subheader("Generate Chart")
+    # ticker = st.text_input("Enter Ticker Symbol (e.g., AAPL):")
+    # interval = st.selectbox("Select Interval", ["1d", "1h", "1wk"])
+    # chunk_size = 180  # Default chunk size
+    # if st.button("Generate Chart"):
+    #     if ticker:
+    #         chart_buffer = generate_chart(ticker, interval=interval, chunk_size=chunk_size)
+    #         if chart_buffer:
+    #             st.success(f"Chart generated successfully.")
+    #             st.download_button(
+    #                 label=f"Download {ticker} Chart",
+    #                 data=chart_buffer,
+    #                 file_name=f"{ticker}_latest_{chunk_size}_candles.png",
+    #                 mime="image/png"
+    #             )
+    #             st.image(chart_buffer, caption=f"{ticker} Chart", use_column_width=True)
+    #     else:
+    #         st.error("Please enter a valid ticker symbol.")
+    # st.write("")
     st.subheader("Upload Image for Detection")
     # Adding file uploader to sidebar for selecting images
     source_img = st.file_uploader(
