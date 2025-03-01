@@ -15,7 +15,7 @@ logo_url = "images/chartscan.png"
 
 # Setting page layout
 st.set_page_config(
-    page_title="ChartScanAI",  # Setting page title
+    page_title="When To Bull AI",  # Setting page title
     page_icon="📊",     # Setting page icon
     layout="wide",      # Setting layout to wide
     initial_sidebar_state="expanded",    # Expanding sidebar by default
@@ -96,7 +96,7 @@ with st.sidebar:
         "Select Model Confidence", 25, 100, 30)) / 100
 
 # Creating main page heading
-st.title("ChartScanAI")
+st.title("When To Bull AI")
 st.caption('📈 To use the app, choose one of the following options:')
 
 st.markdown('''
